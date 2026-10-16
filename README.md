@@ -5,6 +5,7 @@ num2 = float(input("Enter 2nd number... "))
 
 operation = int(input("Pick an operation 1-addi. 2-subt. 3-mult. 4-divi.")) # asks for the needed operation
 
+#these define the function for the operations
 def addition(x, y): 
     result = x + y
     return result
@@ -21,7 +22,7 @@ def division(x, y):
     result = x / y
     return result
 
-# checks for the operation wanted
+# checks for the operation wanted and if it is valid
 if operation == 1:
     print(addition(num1, num2))
 elif operation == 2:
